@@ -1,0 +1,59 @@
+
+<header class="hero container">
+<div class="noscroll">
+	<nav class="nav">
+	  <div class="nav_log">
+		<img
+              src="https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116355&authkey=%21ABW99BbkSD9aVoQ&width=640&height=640"
+              alt=""
+              class="about_testimonial"
+            /><a class="logoname">Tomas Arauz</a>
+			<a class="sublogoname">Software developer</a>
+	  </div>
+
+	  <div class="menu-icon" (click)="MenuClick()">
+		<span [className]="bars?'material-symbols-outlined fas fa-times':'material-symbols-outlined fas fa-bars'" aria-hidden="true">
+		  {{bars? "Close":"Menu"}}</span>
+	  </div>
+	
+	  <div [className]="bars?'nav-menu active':'nav-menu'">
+		<a class="nav-links" href="#job_S">
+		  
+			Work Experience
+
+		</a>
+		<a class="nav-links"  href="#certificado_S">
+			Professional certifications
+		</a>
+		<a class="nav-links"  href="#Education_S">
+		 Education
+		</a>
+		<a  href="#Footer_S" class="nav-links btn">
+			Contact me
+		   </a>
+	  </div>
+	</nav>
+  </div>
+
+  <section class="hero_Main">
+	<div class="hero_Texts">
+	  <h1 class="hero_title">
+		Welcome to ArauzCode
+	  </h1>
+	  <p class="hero_copy">
+		Here, you can get a quick look and learn more about my professional career and experience as a software developer.
+	  </p>
+	  <div class="hero_contact">
+		
+		<button class="hero_btn">Download CV</button>
+	
+	  </div>
+	</div>
+
+	<figure class="hero_picture">
+	  <img src="https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116356&authkey=%21ABcH0ZYIvD2BEag&width=1341&height=852" />
+	</figure>
+  </section>
+</header>
+
+

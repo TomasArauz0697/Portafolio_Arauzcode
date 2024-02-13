@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+/*icono flotante*/
+
+/*.IconUp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 900;
+    position: relative;
+    background-color: red;
+    border-radius: 50%;
+    width: 0px;
+    height: 10px;
+  }*/

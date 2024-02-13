@@ -1,0 +1,36 @@
+
+<div class="certificados">
+    <div class="inf">
+        <div class="hero_Texts">
+            <h1 class="hero_title">
+                Professional certifications
+            </h1>
+            <p class="hero_copy">
+            </p>
+          </div>
+    </div>
+    <div class="grid-gallery">
+        <div  *ngFor="let eaching of Imagenes"  class="grid-item">
+            <a [href]="eaching.srcUrl">
+                <img [alt]="eaching.previewUrl" [src]="eaching.srcUrl">
+                
+            </a>
+            <div class="overlay">
+                <h2>{{eaching.Title }}</h2>
+            </div>
+        </div>
+    </div>
+
+    
+
+</div>
+    
+
+<!--
+<div class="grid-gallery">
+   <div class="grid-item">
+        <a href="https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116354&authkey=%21AJIaZi3pyYeW59Q&width=1600&height=1155" data-lightbox="gridImage">
+            <img src="https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116354&authkey=%21AJIaZi3pyYeW59Q&width=1600&height=1155" alt="">
+        </a>
+    </div>
+-->
