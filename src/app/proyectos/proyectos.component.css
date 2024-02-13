@@ -1,0 +1,210 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.PYT{
+    margin-top:15px ;
+}
+.PYT  .title{
+
+   font-size: 2.5rem;   
+   color: #232949;
+   line-height: 1.5;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.proyectosAll{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 20px;
+    gap: 15px;
+}
+
+.card   {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    Justify-self: center; /*test aling*/
+}
+
+.card .imgBx{
+    
+position: relative;
+width: 100%;
+height: 240px;
+border-radius: 15px;
+background-size: cover;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+
+}
+.IMG1{
+    background-image: url(https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116401&authkey=%21AEI8aDbkmSSNnpQ&width=475&height=733);
+
+}
+.IMG2{
+    background-image: url(https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116403&authkey=%21AAtRXDvg_WgWWbQ&width=1389&height=785);
+
+}
+.IMG3{
+    background-image: url(https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116400&authkey=%21AONBKanPYGoZ8bk&width=457&height=657);
+
+}
+.IMG4{
+    background-image: url(https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116406&authkey=%21AAeN0oB-94R07AY&width=850&height=752);
+
+}
+.IMG5{
+    background-image: url(https://onedrive.live.com/embed?resid=AB3AF34BFE317593%2116405&authkey=%21AJ67yVKZEN43XJc&width=1484&height=779);
+
+}
+
+
+.card .imgBx::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #fff;
+
+ }
+
+ .card .imgBx::after{
+    content: '';
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #fff;
+
+ }
+
+
+.card .content{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #212342;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 0 35px;
+
+}
+
+.card .content .price{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    height: 80px;
+    width: 50%;
+    background-color: #212342;
+    border-top: 10px solid #ffff;
+    border-right: 10px solid #ffff;
+    border-top-right-radius: 25px;
+ }
+
+ .card .content .price::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 #ffff ;
+  }
+
+  .card .content .price::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: -10px 10px 0 #232949 ;
+  }
+
+  
+ .card .content ul{
+   
+    color: rgb(255, 255, 255);
+ }
+
+  .card .content .price a{
+    position: relative;
+    background-color: #ffff;
+    padding: 10px 5px;
+    text-align: center;
+    margin: 15px 15px;
+    display: block;
+    border-radius: 10px;
+    color: #212342;
+    font-weight: 500;
+    text-decoration: none;
+ }
+
+ /* CSS */
+.button-62 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+
+  .DesactiveBTN{
+    background: rgba(197, 196, 196, 0.11);
+  }
+
+  .button-62 a{
+    text-decoration: none;
+    color: #fff;
+  }

@@ -7,11 +7,12 @@ import { JobsComponent} from './jobs/jobs.component';
 import { MainEductaionsComponent } from './main-eductaions/main-eductaions.component';
 import { CertificadosComponent } from './certificados/certificados.component';
 import{ContactanosComponent} from './contactanos/contactanos.component';
+import{ProyectosComponent} from './proyectos/proyectos.component'
 
 
 @NgModule({
     imports:[BrowserModule,FormsModule],
-    declarations: [AppComponent,NavbarComponent,JobsComponent,MainEductaionsComponent,CertificadosComponent,ContactanosComponent],
+    declarations: [AppComponent,NavbarComponent,JobsComponent,MainEductaionsComponent,CertificadosComponent,ContactanosComponent,ProyectosComponent],
     bootstrap: [AppComponent]
 })
 

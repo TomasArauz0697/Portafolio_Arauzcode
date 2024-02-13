@@ -15,6 +15,10 @@
  
 
 }
+.descaragrbtn{
+  text-decoration: none;
+  color: #ffff;
+}
 .hero_Main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -54,7 +58,7 @@
 .hero_btn {
   height: 40px;
   cursor: pointer;
-   background: #5C70E0;
+   background: #232949;
   color: rgb(224, 222, 222);
   font-family: "Yusei Magic", sans-serif;
   font-weight: 700;
@@ -150,7 +154,7 @@
 }
 
 .nav-links:hover {
-  color: #5C70E0;
+  color: #232949;
 }
 
 
@@ -168,8 +172,8 @@
   color: #ffff !important;
   padding: 8px 8px;
   border-radius: 10px;
-  background-color:  #5C70E0;
-  border: 1.6px solid  #5C70E0;
+  background-color:  #232949;
+  border: 1.6px solid  #232949;
   -webkit-transition: background-color 1000ms ease-in-out;
   -ms-transition: background-color 1000ms linear;
   transition: background-color 1000ms ease-in;
@@ -187,7 +191,9 @@
 .menu-icon{
   display: none;
 }
-
+.descaragrbtn{
+  text-decoration: none;
+}
 
 @media screen and (max-width: 1060px) {
  
@@ -271,8 +277,8 @@
     color: #ffff !important;
     padding: 8px 8px;
     border-radius: 10px;
-    background-color:  #5C70E0;
-    border: 1.6px solid  #5C70E0;
+    background-color:  #232949;
+    border: 1.6px solid  #232949;
     -webkit-transition: background-color 1000ms ease-in-out;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms ease-in;

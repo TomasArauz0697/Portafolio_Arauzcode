@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
     align-items: center;
-    background-color: #5c70e0;
+    background-color: #232949;
 }
 
 .timeLine{
@@ -15,7 +15,7 @@
     grid-template-columns: 1fr 3px 1fr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
     color: #FFFFFF;
-    background-color: #5c70e0;
+    background-color: #232949;
 
 
 }
@@ -100,7 +100,7 @@
       grid-template-columns: repeat(1,1fr);
       gap: 1.5rem;
       align-items: center;
-      background-color: #5c70e0;
+      background-color: #232949;
     }
     .hero_Texts{
       grid-row: 1;
