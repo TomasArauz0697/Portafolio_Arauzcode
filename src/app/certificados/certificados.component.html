@@ -14,7 +14,7 @@
     </div>
     <div class="grid-gallery">
         <div  *ngFor="let eaching of Imagenes"  class="grid-item">
-            <a [href]="eaching.srcUrl" data-lightbox="gridImages">
+            <a [href]="eaching.srcUrl" data-lightbox="gridImages" data-title="{{eaching.Title }}">
                 <img [alt]="eaching.previewUrl" [src]="eaching.srcUrl">
                 
             </a>
