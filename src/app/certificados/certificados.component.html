@@ -1,4 +1,7 @@
 
+<!-- jQuery CDN Link -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
 <div class="certificados">
     <div class="inf">
         <div class="hero_Texts">
@@ -11,7 +14,7 @@
     </div>
     <div class="grid-gallery">
         <div  *ngFor="let eaching of Imagenes"  class="grid-item">
-            <a [href]="eaching.srcUrl">
+            <a [href]="eaching.srcUrl" data-lightbox="gridImages">
                 <img [alt]="eaching.previewUrl" [src]="eaching.srcUrl">
                 
             </a>

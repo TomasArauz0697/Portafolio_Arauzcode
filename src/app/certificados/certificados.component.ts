@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CargarScriptsService} from "./../cargar-scripts.service";
 
 @Component({
   selector: 'app-certificados',
@@ -6,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './certificados.component.css'
 })
 export class CertificadosComponent implements OnInit {
+
+  constructor(private _UpScript: CargarScriptsService){
+    _UpScript.Cargar(["main"]);
+    _UpScript.Cargar(["lightbox2/dist/js/lightbox.min"]);
+
+  }
 
   public Imagenes : GridImg[] = [
     {/*Bot master */

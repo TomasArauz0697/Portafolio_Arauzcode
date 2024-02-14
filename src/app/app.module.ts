@@ -9,10 +9,16 @@ import { CertificadosComponent } from './certificados/certificados.component';
 import{ContactanosComponent} from './contactanos/contactanos.component';
 import{ProyectosComponent} from './proyectos/proyectos.component'
 
+//Inicio servicio
+import {CargarScriptsService} from './cargar-scripts.service';
+//fin servicio
+
+
 
 @NgModule({
     imports:[BrowserModule,FormsModule],
     declarations: [AppComponent,NavbarComponent,JobsComponent,MainEductaionsComponent,CertificadosComponent,ContactanosComponent,ProyectosComponent],
+    providers:[CargarScriptsService],
     bootstrap: [AppComponent]
 })
 
