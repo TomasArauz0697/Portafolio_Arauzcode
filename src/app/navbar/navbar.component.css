@@ -82,7 +82,7 @@
   top: 0;
   left: 0;
   right: 0;
-  padding-left: 35px;
+  padding-left: 20px;
   padding-right: 35px;
   z-index: 1000;
 }
@@ -105,19 +105,19 @@
 
 .logoname{
   
-  font-size: 20px;
+  font-size: 25px;
   color:#74716b;
   margin-left: 5px;
 }
 .sublogoname{
-  font-size: 12px;
+  font-size: 18px;
   color:#74716b;
   margin-left: 8px;
 }
 
 .nav_log > img {
-  width:40px;
-  height: 40px;
+  width:60px;
+  height: 60px;
 }
 
 .nav {
@@ -186,6 +186,7 @@
 
 .fa-bars {
   color: #363636;
+  font-size: 35px;
 }
 
 .menu-icon{
@@ -221,7 +222,7 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    top: 63px;
+    top: 80px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -249,12 +250,13 @@
   }
 
   .nav_log > img {
-    width: 35px;
-    height: 35px;
+    width: 60px;
+    height: 60px;
   }
 
   .fa-times {
     color: grey;
+    font-size: 30px;
   }
 
   .noscroll, .footer_content {
@@ -302,19 +304,19 @@ text-align: center;
 
 
 @media screen and (max-width: 990px) {
-  .hero_Main[_ngcontent-ng-c2081791356] {
-    display: grid;
+  .hero_Main{
+    display: grid; 
     grid-template-columns: 1fr;
     gap: 1.5rem;
     align-items: center;
-}
+  }
 
 .menu-icon {
   padding-right: 5px;
   display: block;
   position: absolute;
   top: 0;
-  right: 65px;
+  bottom: 0;
   transform: translate(1%, 30%);
   font-size: 1.8rem;
   cursor: pointer;
