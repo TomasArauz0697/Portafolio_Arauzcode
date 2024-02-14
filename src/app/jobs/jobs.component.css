@@ -112,7 +112,9 @@
         max-width:none;
     }
     .hero_copy , .hero_title{
-      padding-left: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+
     }
     
     }
